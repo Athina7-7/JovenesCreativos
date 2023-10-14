@@ -1,0 +1,39 @@
+/*El banner de "tomate" solo su parte del color */
+#Headerbanner{
+    background-color:rgb(136, 46, 46);
+    padding: 50px;
+    margin: 50px;
+}
+
+/*La letra del banner "tomate"*/
+.bannerTitulo{
+    font-size: 70px;
+    text-align: center;
+    color: aliceblue;
+}
+
+/*el banner del menu, el color que sale detrás de las imagenes*/
+#seccion{
+    background-color:rgb(221, 124, 78);
+    padding: 50px;
+    margin: 50px;
+}
+
+/*Parte del menu donde salen las imagenes*/
+#seccion ul li{
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/*Tamaño de las imagenes*/
+.imagMenu{
+    width: 75px;
+}
+
+
+
+
+
+
+
