@@ -1,0 +1,27 @@
+body{
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+
+}
+
+.banner{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+#banner{
+    background-color:brown;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+#inicio{
+    color: brown;
+    position: relative;
+    left: 1000px;
+    bottom: 175px;
+}
+
+a{
+    text-decoration: none;
+}

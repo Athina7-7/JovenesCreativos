@@ -16,5 +16,19 @@
 }
 
 #Servicios{
-    background-color: aqua;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 6px 4px rgb(0, 0, 0);
+    background-image: url('https://www.proalt.es/wp-content/uploads/2022/05/medio-ambiente-planeta-tierra-scaled.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+#Reseñas{
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 6px 4px rgb(0, 0, 0);
+    background-image: url('https://s1.1zoom.me/big0/771/Quark_curd_cottage_farmer_cheese_Cheese_Olive_560434_1280x853.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
 }
