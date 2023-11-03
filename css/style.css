@@ -1,27 +1,222 @@
-body{
+/*Estilo a toda la página*/
+*{
+    top:0;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
     Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-
-}
-
-.banner{
-    text-align: center;
-    color: rgb(255, 255, 255);
     font-size: 50px;
+    margin: 25px;
 }
 
-#banner{
-    background-color:brown;
-    padding: 10px;
-    margin-top: 50px;
+p {
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 20px;
 }
 
-#inicio{
-    color: brown;
-    position: relative;
-    left: 1000px;
-    bottom: 175px;
+/* -------------------------------------------- */
+/*El banner de "tomate" solo su parte del color */
+
+#ElLogo{
+    margin-bottom: 200px;
+    margin-left: 600px;
 }
 
-a{
-    text-decoration: none;
+#logo{
+    position: fixed;
+    width: 100%;
+    width: 125px;
+    margin: 35px;
+    transition: all 0.4s ease;
+}
+#logo.activo{
+    background-color:rgba(255, 255, 255, 0.555);
+    border-radius: 20px;
+}
+
+#Headerbanner {
+    background-color:rgb(168, 38, 38);
+    padding: 20px;
+    margin: 50px;
+    border-radius: 100px;
+
+}
+
+/*La letra del banner "tomate"*/
+.bannerTitulo {
+    font-size: 70px;
+    text-align: center;
+    color: aliceblue;
+}
+
+/*el banner del menu, el color que sale detrás de las imagenes*/
+#menu {
+    background-color:rgb(118, 167, 40);
+    padding: 80px;
+    margin: 50px;
+    text-align: center;
+    border-radius: 100px;
+    
+}
+
+/*Parte del menu donde salen las imagenes*/
+#menu ul li {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    margin: 20px 60px;
+}
+
+/*Tamaño de las imagenes*/
+.imagMenu {
+    width: 75px;
+}
+
+/* ------------------------------- */
+/* Secciones   */
+
+section{
+    padding: 200px;
+    margin: 150px;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+
+.sobreEmpresa {
+    color: rgb(255, 255, 255);
+    background-color: rgb(199, 60, 25);
+    border-radius: 500px;
+}
+
+.Servicios {
+    color: rgb(255, 255, 255);
+    background-color: rgb(221, 83, 29);
+    border-radius: 500px;
+}
+
+.Reseñas {
+    color: rgb(255, 255, 255);
+    background-color: rgb(128, 172, 28);
+    border-radius: 500px;
+}
+
+
+/* ------------------------------- */
+/* Pie de página   */
+
+#piePagina{
+    background-color:rgb(168, 38, 38);
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+    color: antiquewhite;
+    border-radius: 50px;
+}
+
+/* iconos del pie de página */
+
+.ImgPie{
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    width:30px ;
+}
+
+
+
+
+/* --------------- */
+/* Resposive  */
+
+@media only screen and  (max-width:1300px){
+    #menu ul li {
+            color: rgb(0, 0, 0);
+            display: inline-block;
+            margin-left: 80px;
+            margin-right: 80px;
+        }
+}
+
+@media only screen and (max-width:1024px) {
+    #menu ul li {
+        color: rgb(0, 0, 0);
+        display: inline-block;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    section{
+        padding: 150px;
+        margin: 100px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    
+    #Headerbanner {
+        background-color: rgb(136, 46, 46);
+        padding: 10px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    #logo{
+        width: 80px;
+    }
+    .bannerTitulo {
+        font-size: 48px;
+        text-align: center;
+        color: aliceblue;
+    }
+
+    #menu{
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        margin: auto;
+    }
+    #menu ul li {
+        width: auto;
+        color: rgb(0, 0, 0);
+        display: inline-block;
+   
+    }
+    section {
+        width: 90%;
+        padding: 100px;
+        margin: auto;
+        text-align: justify;
+    }
+}
+
+
+@media only screen and (max-width:700px){
+
+    section{padding: 40px 15px;}
+
+    .sobreEmpresa, .Servicios, .Reseñas{
+        background-image: none;
+        background-color: white;
+        text-shadow: none;
+        color: black;
+        border-bottom: 1px solid #525151e3;
+    }
+    h1{
+        margin-bottom: 20px;
+    }
+}
+
+
+@media only screen and (max-width:480px) {
+
+    #menu ul li {
+        width: 80px;
+        display: inline;
+        color: rgb(0, 0, 0);
+        text-align: center;
+       
+    }
+    
 }
