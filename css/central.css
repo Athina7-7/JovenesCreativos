@@ -1,0 +1,150 @@
+/* -------------------------------------------- */
+/*El banner de "tomate" solo su parte del color */
+
+#ElLogo {
+    margin-bottom: 200px;
+    margin-left: 600px;
+}
+
+#logo {
+    position: fixed;
+    width: 100%;
+    width: 125px;
+    margin: 35px;
+    transition: all 0.4s ease;
+    z-index: 1;
+}
+
+#logo.activo {
+    background-color: rgba(255, 255, 255, 0.555);
+    border-radius: 20px;
+}
+
+#Headerbanner {
+    background-color: rgb(189, 22, 22);
+    padding: 20px;
+    margin: 50px;
+    border-radius: 100px;
+
+}
+
+/*La letra del banner "tomate"*/
+.bannerTitulo {
+    font-size: 70px;
+    text-align: center;
+    color: aliceblue;
+}
+
+/*el banner del menu, el color que sale detrás de las imagenes*/
+#menu {
+    background-color: rgb(130, 194, 27);
+    padding: 80px;
+    margin: 50px;
+    text-align: center;
+    border-radius: 100px;
+
+}
+
+/*Parte del menu donde salen las imagenes*/
+#menu ul li {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    margin: 20px 60px;
+}
+
+/*Tamaño de las imagenes*/
+.imagMenu {
+    width: 75px;
+}
+
+
+/* ------------------------------- */
+/* Secciones   */
+
+section {
+    padding: 200px;
+    margin: 150px;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+
+/* Seccion sobre empresa */
+.sobreEmpresa {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to bottom right,rgb(128, 207, 25),rgba(255, 238, 0, 0.795));
+    border-radius: 500px;
+}
+
+/* Tamaño de imagen sobre empresa */
+
+.empresa_img {
+    width: 400px;
+}
+
+/* Seccion sobre servicios */
+.Servicios {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to bottom right, rgb(166, 224, 57),rgb(255, 81, 0));
+    border-radius: 500px;
+}
+
+/* tooltips de servicios */
+.tooltip{
+    font-weight: bold;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.tooltip_top{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    padding: 5px 8px; 
+    border-radius: 5px; 
+    position: absolute;
+    left: 150px;
+    top: -55px; 
+    display: none;
+}
+
+.tooltip:hover .tooltip_top{
+    display: block;
+}
+
+/* Tamaño de las imagenes sobre servicios */
+
+.servicios_img{
+    width: 150px;
+    margin: 15px 0 50px 0;
+}
+
+
+/* Seccion de reseñas */
+
+.Reseñas {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to bottom right, rgb(255, 174, 0), rgb(175, 8, 8));
+    border-radius: 500px;
+}
+
+
+/* ------------------------------- */
+/* Pie de página   */
+
+#piePagina {
+    background-color: rgb(189, 22, 22);
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+    color: antiquewhite;
+    border-radius: 50px;
+}
+
+/* iconos del pie de página */
+
+.ImgPie {
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 30px;
+}

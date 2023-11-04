@@ -1,0 +1,93 @@
+/* --------------- */
+/* Resposive  */
+
+@media only screen and  (max-width:1300px){
+    #menu ul li {
+            color: rgb(0, 0, 0);
+            display: inline-block;
+            margin-left: 80px;
+            margin-right: 80px;
+        }
+}
+
+@media only screen and (max-width:1024px) {
+    #menu ul li {
+        color: rgb(0, 0, 0);
+        display: inline-block;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    section{
+        padding: 150px;
+        margin: 100px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    
+    #Headerbanner {
+        background-color: rgb(136, 46, 46);
+        padding: 10px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    #logo{
+        width: 80px;
+    }
+    .bannerTitulo {
+        font-size: 48px;
+        text-align: center;
+        color: aliceblue;
+    }
+
+    #menu{
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        margin: auto;
+    }
+    #menu ul li {
+        width: auto;
+        color: rgb(0, 0, 0);
+        display: inline-block;
+   
+    }
+    section {
+        width: 90%;
+        padding: 100px;
+        margin: auto;
+        text-align: justify;
+    }
+}
+
+
+@media only screen and (max-width:700px){
+
+    section{padding: 40px 15px;}
+
+    .sobreEmpresa, .Servicios, .Reseñas{
+        background-image: none;
+        background-color: white;
+        text-shadow: none;
+        color: black;
+        border-bottom: 1px solid #525151e3;
+    }
+    h1{
+        margin-bottom: 20px;
+    }
+    
+}
+
+
+@media only screen and (max-width:480px) {
+
+    #menu ul li {
+        width: 80px;
+        display: inline;
+        color: rgb(0, 0, 0);
+        text-align: center;
+       
+    }
+    
+}
