@@ -1,16 +1,20 @@
+/* --------------------------------------------- */
+/* Botón de cerrar sesión */
+
+
 /* -------------------------------------------- */
 /*El banner de "tomate" solo su parte del color */
 
 #ElLogo {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     margin-left: 600px;
 }
 
 #logo {
     position: fixed;
-    width: 100%;
-    width: 125px;
-    margin: 35px;
+    /* width: 100%; */
+    /* width: 125px; */
+    /* margin: 35px; */
     transition: all 0.4s ease;
     z-index: 1;
 }
@@ -94,17 +98,19 @@ section {
     font-weight: bold;
     position: relative;
     font-family: sans-serif;
+    
 }
 
 .tooltip_top{
     background-color: rgb(255, 255, 255);
-    color: rgb(255, 0, 0);
+    color: rgb(255, 81, 0);
     padding: 5px 8px; 
     border-radius: 5px; 
     position: absolute;
     left: 150px;
     top: -55px; 
     display: none;
+    
 }
 
 .tooltip:hover .tooltip_top{
