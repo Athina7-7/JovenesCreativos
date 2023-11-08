@@ -1,0 +1,87 @@
+/* -------------------------------- */
+/* Ambas páginas */
+h2{
+    color:aliceblue;
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-style: italic;
+    font-size: 100px;
+    margin: 50px;
+    text-align: center;
+
+}
+
+form label{
+	width:100px;
+    height: 90px;
+	display:inline-block;
+    color: aliceblue;
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+
+}
+
+form input{
+    text-align: center;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    text-decoration: none
+
+
+}
+
+/* ------------------------- */
+/* Página de login */
+#login{
+    background-color: rgb(189, 22, 22);
+    border-radius: 500px;
+}
+
+#loginForm{
+	width:300px;
+	padding:30px;
+	border-radius:10px;
+	margin:auto;
+    background-color: rgb(201, 88, 84);
+}
+
+#div_registrate{
+    padding: 50px;
+    color: white;
+}
+
+
+#div_registrate a{
+    color:  rgb(247, 116, 112);
+    font-weight:bold;
+    text-decoration: none
+}
+
+
+/* ------------------------------ */
+/* Página de registro */
+
+#registro{
+    background-color: rgb(130, 194, 27);
+    border-radius: 500px;
+}
+
+#registroForm{
+	width:300px;
+	padding:30px;
+	border-radius:10px;
+	margin:auto;
+    background-color: rgb(149, 192, 80);
+}
+
+#div_acceder{
+    padding: 50px;
+    color: white;
+}
+
+
+#div_acceder a{
+    color: rgb(116, 156, 51);
+    font-weight:bold;
+    text-decoration: none
+}
